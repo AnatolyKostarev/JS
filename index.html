@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/_media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="order">
+        <div class="container">
+            <div class="order-text">
+                <p class="order-text__get">Получите индивидуальное предложение</p>
+                <p class="order-text__simple">на производство и поставку изделий</p>
+                <form id="form" class="order-text__form" action="#" method="POST">
+                    <label class="order-text__label" for="tel1">Введите ваш номер телефона:</label>
+                    <input class="order-text__inputphone" id="tel1" autocomplete="off" type="tel" name="user__phone" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" required>
+                    <label class="order-text__label" for="name">Введите ваше имя:</label>
+                    <input class="order-text__inputname" id="name" autocomplete="off" type="text" name="user__name" placeholder="Имя" required>
+                    <button type="submit" class="order-text__button">Оставить заявку!</button>
+                </form>
+                <!-- /.order-text__form -->
+                <span class="order-text__minorder">*Минимальный заказ 500шт</span>
+            </div>
+            <!-- /.order-text -->
+        </div>
+        <!-- /.container -->
+    </section>
+</body>
+</html>

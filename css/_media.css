@@ -1,0 +1,107 @@
+/* НАЧАЛО БЛОКА МЕДИАЗАПРОСОВ .ORDER*/
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .order-text__get {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .order-text__simple {
+        font-size: 16px;
+       
+    }
+    .order-text__label {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 425px) and (max-width: 575.98px) {
+    .order-text__get {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 5px 0 5px;
+        text-align: center;
+    }
+    .order-text__simple {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: calc(var(--base-size-xl) * 2 - 2px); /*30px;*/
+       
+    }
+    .order-text__label {
+        font-size: 14px;
+        margin-bottom: calc(var(--base-size-xl) + 6px); /*22px;*/
+    }
+    .order-text__inputphone {
+        font-size: 13px;
+        margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
+    }
+    .order-text__button {
+        font-size: 15px;
+    }
+    .order-text__minorder {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 424.98px) {
+    .order-text__get {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .order-text__simple {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: calc(var(--base-size-xl) * 2 - 2px); /*30px;*/
+       
+    }
+    .order-text__label {
+        font-size: 14px;
+        margin-bottom: calc(var(--base-size-xl) + 6px); /*22px;*/
+    }
+    .order-text__inputphone {
+        font-size: 13px;
+        padding: calc(var(--base-size-m) - 1px) calc(var(--base-size-xl) * 5 + 14px);
+        margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
+    }
+    .order-text__button {
+        font-size: 15px;
+    }
+    .order-text__minorder {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 374.98px) {
+    .order-text__form {
+        margin-bottom: var(--base-size-xl);
+    }
+    .order-text__get {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+    }
+    .order-text__simple {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: calc(var(--base-size-xl) * 2 - 2px); /*30px;*/
+       
+    }
+    .order-text__label {
+        font-size: 14px;
+        margin-bottom: calc(var(--base-size-xl) + 6px); /*22px;*/
+    }
+    .order-text__inputphone {
+        font-size: 13px;
+        padding: calc(var(--base-size-s) - 1px) calc(var(--base-size-xl) * 4 + 3px);
+        margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
+    }
+    .order-text__button {
+        font-size: 15px;
+        padding: calc(var(--base-size-xl) + 1px) calc(var(--base-size-xl) * 2 - 1px);
+    }
+    .order-text__minorder {
+        font-size: 13px;
+    }
+}
+
+/* КОНЕЦ БЛОКА МЕДИАЗАПРОСОВ .ORDER*/
