@@ -112,6 +112,7 @@ h1, h2, h3, h4, p, ul, li {
     outline: none;
     border: none;
     border-radius: var(--main-border-radius);
+    text-align: center;
 }
 .order-text__inputname:invalid {
     box-shadow: none;
@@ -135,6 +136,25 @@ h1, h2, h3, h4, p, ul, li {
 
 .order-text__button:focus {
     background: var(--button-bgcolor-pressed);
+}
+.button-o {
+    display: block;
+    margin: 0 auto;
+    padding: calc(var(--base-size-xl) + 4px) calc(var(--base-size-xl) * 2 + 2px); /*20px 34px;*/
+    color: var(--button-text-color);
+    background: red;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: var(--main-border-radius);
+}
+.button-o:hover {
+    background: rgba(255, 1, 1, 0.836);
+}
+.button-o:focus {
+    background: rgba(255, 1, 1, 0.632);
 }
 .order-text__minorder {
     font-size: 14px;
