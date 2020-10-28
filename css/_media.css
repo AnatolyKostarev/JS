@@ -34,6 +34,9 @@
         font-size: 13px;
         margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
     }
+    .order-text__inputname {
+        font-size: 13px;
+    }
     .order-text__button {
         font-size: 15px;
     }
@@ -58,6 +61,11 @@
         margin-bottom: calc(var(--base-size-xl) + 6px); /*22px;*/
     }
     .order-text__inputphone {
+        font-size: 13px;
+        padding: calc(var(--base-size-m) - 1px) calc(var(--base-size-xl) * 5 + 14px);
+        margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
+    }
+    .order-text__inputname {
         font-size: 13px;
         padding: calc(var(--base-size-m) - 1px) calc(var(--base-size-xl) * 5 + 14px);
         margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
@@ -91,6 +99,11 @@
         margin-bottom: calc(var(--base-size-xl) + 6px); /*22px;*/
     }
     .order-text__inputphone {
+        font-size: 13px;
+        padding: calc(var(--base-size-s) - 1px) calc(var(--base-size-xl) * 4 + 3px);
+        margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
+    }
+    .order-text__inputname {
         font-size: 13px;
         padding: calc(var(--base-size-s) - 1px) calc(var(--base-size-xl) * 4 + 3px);
         margin-bottom: calc(var(--base-size-l) + 1px); /*13px;*/
