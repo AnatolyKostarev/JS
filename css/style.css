@@ -112,6 +112,7 @@ h1, h2, h3, h4, p, ul, li {
     outline: none;
     border: none;
     border-radius: var(--main-border-radius);
+    text-align: center;
 }
 .order-text__inputname:invalid {
     box-shadow: none;
