@@ -20,6 +20,10 @@ h1, p, span {
     font-size: 26px;
     vertical-align: center;
     margin-bottom: 25px; }
+    .text_title_color {
+      color: red;
+      vertical-align: center;
+      margin-bottom: 25px; }
   .text_subtitle {
     font-size: 14px;
     vertical-align: center;
