@@ -1,0 +1,70 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff; }
+
+h1, p, span {
+  margin: 0; }
+
+.form {
+  border: 1px solid #373737;
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 225px);
+  padding: 25px 25px; }
+
+.text {
+  position: relative; }
+  .text_title {
+    font-size: 26px;
+    vertical-align: center;
+    margin-bottom: 25px; }
+  .text_subtitle {
+    font-size: 14px;
+    vertical-align: center;
+    margin-bottom: 25px; }
+
+span {
+  position: absolute;
+  top: -1px;
+  right: 0px;
+  font-size: 30px; }
+
+.name {
+  display: block;
+  padding: 10px 144px;
+  margin-bottom: 20px;
+  outline-color: blue; }
+
+.but_cancel {
+  padding: 10px 20px;
+  margin-left: 206px;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  background: #dfdcdcee;
+  color: #4f26f3;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer; }
+  .but_cancel:hover {
+    background: #4f26f3;
+    color: #fff;
+    transition: 0.5s; }
+
+.but_save {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background: #4f26f3;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer; }
+  .but_save:hover {
+    background: #dfdcdcee;
+    color: #4f26f3;
+    transition: 0.5s; }
+
+/*# sourceMappingURL=main.css.map */
