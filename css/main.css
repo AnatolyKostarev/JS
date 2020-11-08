@@ -37,23 +37,26 @@ span {
   margin-bottom: 20px;
   outline-color: blue; }
 
-.but_cancel {
+.but_save {
+  position: absolute;
+  right: 25px;
   padding: 10px 20px;
-  margin-left: 206px;
-  margin-right: 15px;
   border: none;
   outline: none;
-  background: #dfdcdcee;
-  color: #4f26f3;
+  background: #4f26f3;
+  color: #fff;
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer; }
-  .but_cancel:hover {
-    background: #4f26f3;
-    color: #fff;
+  .but_save:hover {
+    background: #dfdcdcee;
+    color: #4f26f3;
     transition: 0.5s; }
 
-.but_save {
+.but_clear {
+  position: absolute;
+  bottom: 195px;
+  left: 190px;
   padding: 10px 20px;
   border: none;
   outline: none;
