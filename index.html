@@ -8,17 +8,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form class="form" action="#">
+    <form class="form" action="#" method="POST">
         <div class="text">
-            <h1 class="text_title">Требуется название</h1>
-            <p class="text_subtitle">Перед тем, как предоставить доступ к документу, дайте ему название:</p>
+            <h1 class="text_title">Запрос доступа</h1>
+            <p class="text_subtitle text_subtitle_click">Перед тем, как получить доступ к документу, введите ваш email:</p>
             <span>&times;</span>
         </div>
         <!-- /.text -->
-        <input class="name" type="text" placeholder="Введите название">
-        <button class="but_cancel">Пропустить</button>
-        <button class="but_save">Сохранить</button>
+        <input id="emailIinput" class="name" type="email" value="example@gmail.com" placeholder="example@gmail.com" required>
+        <button class="but_save" type="submit">Отправить</button>
     </form>
+    <button id="clearButton" class="but_clear">Очистить</button>
     <script src="js/myScript.js"></script>
 </body>
 </html>
