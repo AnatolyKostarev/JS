@@ -65,7 +65,7 @@ span {
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer; }
-  .but_save:hover {
+  .but_clear:hover {
     background: #dfdcdcee;
     color: #4f26f3;
     transition: 0.5s; }
