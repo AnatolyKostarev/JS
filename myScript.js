@@ -12,11 +12,12 @@
 let age = prompt('Возраст?', 18);
 
 if (age < 3) {
-  alert(message = ' Здравствуй, малыш!');
+  message = ' Здравствуй, малыш!';
 } else if (age < 18) {
-  alert(message = 'Привет!');
+  message = 'Привет!';
 } else if (age < 100) {
-  alert(message = 'Здравствуйте!');
+  message = 'Здравствуйте!';
 } else {
-  alert(message = 'Какой необычный возраст!');
+  message = 'Какой необычный возраст!';
 }
+alert(message);
