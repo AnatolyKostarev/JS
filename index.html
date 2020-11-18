@@ -6,6 +6,48 @@
     <title>Циклы</title>
 </head>
 <body>
-    
+    <script>
+        'use strict';
+
+        // Реализация функции по выводу чисел из массива [15, 30], включая крайние числа
+
+        // Используется цикл while
+        function range() {
+            let start = 15;
+            while (start < 31) {
+               alert(start);
+               start++; 
+            }
+        };
+        range();
+
+        // используется цикл for
+        function range() {
+            for (let start = 15; start < 31; start++) {
+               alert(start);
+            }
+        };
+        range();
+
+        // Реализация функции  по выводу нечетных чисел из массива [15, 30], включая крайние числа
+
+        // Используется цикл while
+        function rangeOdd() {
+            let start = 15;
+            while (start < 30) {
+               alert(start);
+               start = start + 2; 
+            }
+        };
+        rangeOdd();
+
+        // используется цикл for
+        function rangeOdd() {
+            for (let start = 15; start < 30; start = start + 2) {
+               alert(start);
+            }
+        };
+        rangeOdd();
+    </script>
 </body>
 </html>
