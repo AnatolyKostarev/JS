@@ -6,8 +6,63 @@
     <title>Функции</title>
 </head>
 <body>
+    
+
     <script>
+        // Вариант с https://developer.mozilla.org/ru/docs/Web/JavaScript/A_re-introduction_to_JavaScript
         
+        // Функция для вычисления среднего значения
+
+        function average() {
+
+            let sum = 0;
+
+            for (let i = 0, j = arguments.length; i < j; i++) {
+                sum += arguments[i];
+            };
+
+            return sum / arguments.length;
+        };
+
+            let a = Number (prompt('Введите число a', ''));
+            let b = Number (prompt('Введите число b', ''));
+
+            alert(`Среднее значение суммы чисел a, b равно ${average(a, b)}`);
     </script>
+
+    <script>
+        // Функция для расчета квадрата аргумента
+
+        function square(x) {
+            let result = x;
+
+            for (let i = 1; i < 2; i++) {
+                result *= x;
+            };
+
+            return result;
+        };
+
+            let arg = prompt('Введите число для вычисления его квадрата',);
+            alert(`Квадрат числа ${arg} равен ${square(arg)}`);
+    </script>
+
+    <script>
+        // Функция для расчета куба аргумента
+
+        function cube(x) {
+            let result = x;
+
+            for (let i = 1; i < 3; i++) {
+                result *= x;
+            };
+
+            return result;
+        };
+
+            let arg1 = prompt('Введите число для вычисления его куба',);
+            alert(`Куб числа ${arg1} равен ${cube(arg1)}`);
+    </script>
+
 </body>
 </html>
