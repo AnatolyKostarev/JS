@@ -34,7 +34,7 @@ const sum4 = ()=> {
        
         resultAdd += num;
     };
-        alert(`Сумма всех элементов массива равна ${resultAdd}`);
+        alert(`Сумма всех элементов массива равна ${resultAdd} - ЦИКЛ FOR...OF`);
 };
 sum4();
 
