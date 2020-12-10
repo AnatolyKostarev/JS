@@ -31,3 +31,5 @@ console.log(array);
 arr.indexOf(item, from) ищет item, начиная с индекса from, и возвращает индекс, на котором был найден искомый элемент, в противном случае -1.
 
 Далее используем метод arr.splice для удаления найденного элемента массива из заданного массива
+
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
