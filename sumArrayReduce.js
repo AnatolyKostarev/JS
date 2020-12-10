@@ -1,3 +1,5 @@
+'use strict';
+
 const array = [10, -1, -1, -1];                     // в константу присвоен массив значений
 const reducer = (accumulator, currentValue) => {    // объявлена функция обратного вызова reducer()
     return accumulator + currentValue;              // 
