@@ -26,13 +26,9 @@ const sum4 = ()=> {
     };
     alert(`Задан массив из чисел [${dataOfArguments}]`);
 
-    let num;
-
     let resultAdd = 0;
 
-    let newDataOfArguments = dataOfArguments;
-
-    for (num of newDataOfArguments) {
+    for (const num of dataOfArguments) {
        
         resultAdd += num;
     };
