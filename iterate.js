@@ -1,6 +1,5 @@
 'use strict';
 
-const obj1 = {name: 'James', age: 45, height: 179, weight: 71};
 const obj = {a: 1, b: 2, c:3};                                      // объявлен объект со свойствами
 
 const iterate = (object, callback) => {                             // объявлена функция с аргументами, принимающими объект и функцию
