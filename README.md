@@ -21,6 +21,8 @@ studying and practice JS
         { key: 'b', value: 2 }
         { key: 'c', value: 3 }
 
+[Ссылка YouTube-канал IT-KAMASUTRA. Видео: Callback (JS)](https://www.youtube.com/watch?v=sB-KTgAhZUQ "Callback(JavaScript)")
+
 
 ## Задача 2
 
