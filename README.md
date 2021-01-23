@@ -54,4 +54,4 @@ studying and practice JS
         const res = concatStrings('Hello ', 'world!');
         console.dir(res); // Output: Hello world!
 
-
+[Декораторы в JS](https://webdevblog.ru/dekoratory-javascript-s-nulya/)
