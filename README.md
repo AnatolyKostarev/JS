@@ -33,6 +33,8 @@ studying and practice JS
         const value = read();
         console.log(value); // Output: 5
 
+[Ссылка YouTube-канал Vladilen Minin. Видео: Замыкания. Как они работают (JS)](https://www.youtube.com/watch?v=pahO5XjnfLA&list=PL4kgMF6USkQOra5Ulyti3y4etvJ8pinOS&index=3&t=20s "Замыкания. Как они работают(JavaScript)")
+
 
 ## Задача 3
 
