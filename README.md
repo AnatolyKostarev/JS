@@ -18,27 +18,27 @@ studying and practice JS
 
 2. Вот как это выглядит при использовании if..else: Добавыил инструкцию alert() для отображения ответов пользователю.
 
-    if (age < 3) {
-      alert(message = 'Здравствуй, малыш!');
-    } else if (age < 18) {
-      alert(message = 'Привет!');
-    } else if (age < 100) {
-      alert(message = 'Здравствуйте!');
-    } else {
-      alert(message = 'Какой необычный возраст!');
-    }
+        if (age < 3) {
+          alert(message = 'Здравствуй, малыш!');
+        } else if (age < 18) {
+          alert(message = 'Привет!');
+        } else if (age < 100) {
+          alert(message = 'Здравствуйте!');
+        } else {
+          alert(message = 'Какой необычный возраст!');
+        }
 
 3. По данной ссылке https://learn.javascript.ru/ifelse#neskolko-operatorov message прописан без инструкции alert();, что  
 не позволяет браузеру отобразить варианты ответов на полученные данные от пользователя.
 
 4. Вот как это выглядит при использовании if..else:
 
-    if (age < 3) {
-      message = 'Здравствуй, малыш!';
-    } else if (age < 18) {
-      message = 'Привет!';
-    } else if (age < 100) {
-      message = 'Здравствуйте!';
-    } else {
-      message = 'Какой необычный возраст!';
-    }
+        if (age < 3) {
+          message = 'Здравствуй, малыш!';
+        } else if (age < 18) {
+          message = 'Привет!';
+        } else if (age < 100) {
+          message = 'Здравствуйте!';
+        } else {
+          message = 'Какой необычный возраст!';
+        }
