@@ -42,8 +42,8 @@ h1 {
 
 #preview {
     position: absolute;
-    width: 120px;
-    height: 80px;
+    width: 300px;
+    height: 150px;
     background: left/contain no-repeat;
     display: none;
 }
