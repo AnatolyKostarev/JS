@@ -39,3 +39,15 @@ h1 {
     font-size: 38px;
     color: rgb(15, 73, 233);
 }
+
+#preview {
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    background: left/contain no-repeat;
+    display: none;
+}
+
+#preview.active {
+    display: block;
+}
