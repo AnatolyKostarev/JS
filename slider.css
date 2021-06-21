@@ -1,0 +1,41 @@
+.slider {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 500px;
+}
+
+.navSlider{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.navButtons{
+    padding: 10px 15px;
+    border: 2px solid rgb(15, 73, 233);
+    border-radius: 5px;
+    margin: 10px;
+    background: #fff;
+    font-weight: bold;
+    color: rgb(15, 73, 233);
+    cursor: pointer;
+}
+
+.active{
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(15, 73, 233);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 38px;
+    color: rgb(15, 73, 233);
+}
