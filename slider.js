@@ -34,7 +34,7 @@ function getImageURL(fileName) {
 
 function showPreview(evt) {
     preview.style.left = evt.pageX + 'px';
-    preview.style.top - evt.pageY + 'px';
+    preview.style.top = evt.pageY - 'px';
     preview.style.backgroundImage = 'url(' + getImageURL(this.id) + ')';
     preview.className = 'active';
 }
