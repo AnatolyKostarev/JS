@@ -1,4 +1,4 @@
-'strict mode'
+'use strict';
 
 const output = document.getElementById('output');
 const buttons = document.querySelectorAll('nav button');
