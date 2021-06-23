@@ -2,8 +2,29 @@
     display: none;
 }
 
-.car {
+.car, .enemy {
     width: 50px;
     height: 100px;
     background: transparent url('./image/player.png') center / cover no-repeat;
+    position: absolute;
+    left: 125px;
+    bottom: 10px;
+}
+
+.gameArea {
+    margin-top: 50px;
+    width: 300px;
+    height: 650px;
+    position: relative;
+    margin: auto;
+    background: #222;
+    overflow: hidden;
+}
+
+.line {
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background: #fff;
+    left: 145px;
 }
