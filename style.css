@@ -7,8 +7,6 @@
     height: 100px;
     background: transparent url('./image/player.png') center / cover no-repeat;
     position: absolute;
-    left: 125px;
-    bottom: 10px;
 }
 
 .gameArea {
