@@ -51,17 +51,24 @@ function startGame() {
         gameArea.appendChild(enemy);
     }
     
+    setting.score = 0;
     setting.start = true;
     gameArea.appendChild(car);
+    car.style.left = '125px';
+    car.style.top = 'auto';
+    car.style.bottom = '10px';
     setting.x = car.offsetLeft;
     setting.y = car.offsetTop;
     requestAnimationFrame(playGame);
 }
 
 function playGame() {
-    moveRoad();
-    moveEnemy();
+    
     if (setting.start) {
+        setting.score += setting.speed;
+        score.innerHTML = 'SCORE<br>' + setting.score;
+        moveRoad();
+        moveEnemy();
         if (keys.ArrowLeft && setting.x > 0) {
             setting.x -= setting.speed;
         }
