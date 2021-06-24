@@ -31,6 +31,7 @@ function getQuantityElements(heightElement) {
 
 function startGame() {
     start.classList.add('hide');
+    gameArea.innerHTML = '';
 
     for (let i = 0; i < getQuantityElements(100); i++) {
         const line = document.createElement('div');
